@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgrey;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+body h1{
+    text-align: center;
+    margin: 10px;
+}
+.error{
+    color: red;
+    text-align: center;
+    margin: 10px;
+    padding: 3px;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    display: none;
+}
+.container{
+    display: flex;
+    width: 900px;
+    /* border: 2px solid black; */
+    height: 68vh;
+    padding: 2px;
+    background-color: white;
+    
+
+
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.form{
+    width: 50%;
+    background-color: aqua;
+    padding: 10px;
+}
+.result{
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    display: none;
+    margin: 40px;
+    border: none;
+}
+.form-group{
+    margin: 20px;
+
+}
+label{
+    font-size: 1.2rem;
+}
+input{
+    background-color: transparent;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 8px;
+    outline: none;
+    font-size: 1.1rem;
+}
+input[type='submit']{
+    background-color: midnightblue;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    padding: 9px;
+    width: 70%;
+    margin: 20px;
+cursor: pointer;
+}
+.result .txt{
+/* border: 2px solid black; */
+margin: 10px;
+margin-top: 30px;
+}
+.txt h3{
+    font-size: 1.5rem;
+    margin: 8px;
+}
+.txt h4{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.txt .mpayment{
+    /* border: 2px solid black; */
+    text-align: center;
+    margin: 15px;
+    padding: 9px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.txt .ppaid{
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    margin: 8px;
+}
+.txt .ipaid{
+    font-weight: 400;
+        font-size: 1.2rem;
+        letter-spacing: 0.4px;
+        margin: 8px;
+}
+.loading{
+    width: 400px;
+    text-align: center;
+    display: none;
+}
+.second{
+    text-align: center;
+}

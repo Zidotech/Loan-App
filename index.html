@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Loan Calculator App</h1>
+
+    <p id="error" class="error">Check your Input!!!</p>
+    
+    <div class="container">
+        <div class="form">
+            <form id="form">
+
+                <div class="form-group">
+                    <label for="">Car Price</label> <br>
+                    <input type="number"  id="price">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Downpayment</label><br>
+                    <input type="number"  id="payment">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Loan duration</label><br>
+                    <input type="number"  id="duration">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Interest rate</label><br>
+                    <input type="number"  id="rate">
+                </div>
+
+                <input type="submit" value="Calculate">
+
+            </form>
+
+           
+        </div>
+
+
+       <div class="second">
+        <div class="loading" id="loading">
+            <img src="./Loading_2.gif" alt="">
+        </div>
+        <div class="result" id="result">
+            <div class="txt">
+                <h3>Result:</h3>
+        
+                <h4>Estimate monthly payment:</h4>
+                <p id="mpayment" class="mpayment">$</p>
+        
+                <p id="ppaid" class="ppaid">Total Principal paid:</p>
+                <p id="ipaid" class="ipaid">Total Interest Paid:</p>
+            </div>
+        </div>
+
+       </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
